@@ -7,18 +7,18 @@ PROJECT_DIR = Path(__file__).parent
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/1.6/howto/deployment/checklist/
 
-SECRET_KEY = config('SECRET_KEY')
+SECRET_KEY = 's3cr3t_key123456@'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
 DATABASES = {
     'default': dj_database_url.config(
-        default=config('DATABASE_URL')
+        default='postgres://udloxqpbyuxujw:9c35366f4a106af6aed4369c3dc598fbcb0384ac6fe210c706b60e6fbea80ce6@ec2-174-129-22-84.compute-1.amazonaws.com:5432/da1m4098ol64pg'
     )
 }
 
-ALLOWED_HOSTS = config('ALLOWED_HOSTS', cast=Csv())
+ALLOWED_HOSTS = []
 
 # Application definition
 
