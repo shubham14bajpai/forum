@@ -14,7 +14,7 @@ DEBUG = True
 
 DATABASES = {
     'default': dj_database_url.config(
-        default='postgres://udloxqpbyuxujw:9c35366f4a106af6aed4369c3dc598fbcb0384ac6fe210c706b60e6fbea80ce6@ec2-174-129-22-84.compute-1.amazonaws.com:5432/da1m4098ol64pg'
+        default='postgres://fmkrmndwzsyifd:2b3ee9e087787aeb3b1b7ee8ebbe3de062689c1969c22931ebc33f4f62327903@ec2-54-221-198-206.compute-1.amazonaws.com:5432/dbs1u27cefdp02'
     )
 }
 
