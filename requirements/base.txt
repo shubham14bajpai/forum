@@ -5,7 +5,7 @@ django-autoslug>=1.9
 django-taggit>=0.22
 Django==1.11.23
 Markdown==2.6
-Pillow==4.2
+Pillow==8.3.2
 psycopg2==2.7
 python-decouple==3
 pytz==2017.2
